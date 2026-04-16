@@ -67,8 +67,9 @@ const Contact = () => {
                   <Phone size={20} />
                 </div>
                 <div>
-                  <h4>Call Us</h4>
-                  <p>+233 (59) 203-5561</p>
+                  <h4>Call Us or MOMO </h4>
+                  <p>+233 (055) 889-0612</p>
+                  <p> Ama Nhyira Boateng</p>
                 </div>
               </div>
 
