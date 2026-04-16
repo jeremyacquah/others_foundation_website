@@ -1,0 +1,50 @@
+.initiatives-section {
+  background: rgba(4, 8, 20, 0.5);
+}
+
+.initiatives-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 4rem;
+}
+
+.initiative-card {
+  padding: 2.5rem 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.initiative-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px -15px rgba(14, 165, 233, 0.2);
+  border-color: rgba(14, 165, 233, 0.4);
+}
+
+.icon-wrapper {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.1), rgba(129, 140, 248, 0.1));
+}
+
+.initiative-icon {
+  width: 32px;
+  height: 32px;
+  color: var(--primary-accent);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: var(--text-primary);
+}
+
+.card-description {
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
